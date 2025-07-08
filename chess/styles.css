@@ -13,12 +13,15 @@ body {
   color: rgba(73, 133, 13, 0.555);
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+  
 }
 
 .main {
   display: flex;
   flex-direction: column;
-  border: 0.05rem solid black;
+  border: 0.05rem solid rgb(90, 88, 88);
+  border-radius: 1rem;
+  overflow:hidden;
 }
 
 .row {
@@ -27,14 +30,103 @@ body {
 }
 
 .chess-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.9rem;
   height: 3.75rem;
   width: 4.375rem;
 }
 
 .white {
-  background-color: aliceblue;
+  background-color: rgba(207, 207, 207, 0.788);
 }
 
 .black {
-  background-color: black;
+  background-color: rgb(85, 111, 150);
+}
+ .wp,.bp{
+  transition:0.3s ease ;
+}
+.bp:hover{
+cursor: pointer;
+font-size: 3.2rem;
+}
+
+.wp{
+  color: aliceblue;
+}
+body {
+  background-color: rgb(159, 233, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 4rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 800;
+  color: rgba(73, 133, 13, 0.555);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  border: 0.05rem solid rgb(90, 88, 88);
+  border-radius: 1rem;
+  overflow:hidden;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.chess-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.9rem;
+  height: 3.75rem;
+  width: 4.375rem;
+}
+
+.white {
+  background-color: rgba(207, 207, 207, 0.788);
+}
+
+.black {
+  background-color: rgb(85, 111, 150);
+}
+ .wp,.bp{
+  transition:0.3s ease ;
+}
+.bp:hover{
+cursor: pointer;
+font-size: 3.2rem;
+}
+
+.wp{
+  color: aliceblue;
+    transition:0.3s ease ;
+}
+.wp:hover{
+cursor: pointer;
+font-size: 3.2rem;
+
+}
+.psw{
+  
+font-size: 1rem;
+ transition:0.3s ease ;
+}
+.psw:hover{
+
+  font-size:1.2rem;
+  cursor: pointer;
 }
